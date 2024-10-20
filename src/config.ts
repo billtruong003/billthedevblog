@@ -11,8 +11,8 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Demo Site',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    fixed: false,     // Hide the theme color picker for visitors
+    hue: 70,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: true,     // Hide the theme color picker for visitors
   },
   banner: {
     enable: true,
@@ -26,11 +26,11 @@ export const siteConfig: SiteConfig = {
     
   },
   favicon: [    // Leave this array empty to use the default favicon
-    // {
-    //   src: 'assets/images/demo-avatar.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'dark',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '128x128',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-    // }
+    {
+      src: 'assets/images/avatar.png',    // Path of the favicon, relative to the /public directory
+      theme: 'dark',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+      sizes: '128x128',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    }
   ]
 }
 
