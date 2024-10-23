@@ -25,11 +25,34 @@ export const siteConfig: SiteConfig = {
     }
     
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: [    // Sử dụng các favicon đã tạo
     {
-      src: 'assets/images/avatar.png',    // Path of the favicon, relative to the /public directory
-      theme: 'dark',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-      sizes: '128x128',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+      src: '/favicon/fav-billthedev-16.png',     
+      sizes: '16x16',
+    },
+    {
+      src: '/favicon/fav-billthedev-24.png',     
+      sizes: '24x24',
+    },
+    {
+      src: '/favicon/fav-billthedev-32.png',
+      sizes: '32x32',
+    },
+    {
+      src: '/favicon/fav-billthedev-48.png',
+      sizes: '48x48',
+    },
+    {
+      src: '/favicon/fav-billthedev-64.png',
+      sizes: '64x64',
+    },
+    {
+      src: '/favicon/fav-billthedev-128.png',
+      sizes: '128x128',
+    },
+    {
+      src: '/favicon/fav-billthedev-256.png',
+      sizes: '256x256',
     }
   ]
 }

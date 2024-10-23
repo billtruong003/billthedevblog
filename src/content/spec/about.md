@@ -24,7 +24,7 @@ With over **2,500 hours of teaching experience**, I’ve had the privilege of me
 
 ## My Tech Stack 💻:
 - **Unity 3D** 🕹️
-- **C#** ⚙️
+- **CSharp** ⚙️
 - **Git, GitHub, GitLab** 🔧
 - **Agile & Scrum methodologies** 📈
 
@@ -62,7 +62,7 @@ I create all of my projects for free, but if you'd like to support me, your cont
 ### **MoMo**
 <img src="https://i.ibb.co/3k9ycqC/QR-MOMO.png" alt="MBBank QR" style="width:300px;"/>
 
-**Phone Number**: +84374976616
+**Phone Number**: +84 374976616
 ---
 
 🙏 Your support allows me to continue building and improving these projects. Thank you so much for your generosity!
