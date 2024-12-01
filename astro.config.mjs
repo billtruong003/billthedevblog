@@ -62,11 +62,11 @@ export default defineConfig({
     sitemap(),
     Compress({
       CSS: false,
-      Image: false,
+      Image: true, // Enable image compression if needed
       Action: {
-        Passed: async () => true, // https://github.com/PlayForm/Compress/issues/376
+        Passed: async () => true,
       },
-    }),
+    })    
   ],
   markdown: {
     remarkPlugins: [
