@@ -66,7 +66,7 @@ export default defineConfig({
       Action: {
         Passed: async () => true,
       },
-    })    
+    }),
   ],
   markdown: {
     remarkPlugins: [
@@ -119,6 +119,7 @@ export default defineConfig({
     ],
   },
   vite: {
+    assetsInclude: ['**/*.zip'],
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
