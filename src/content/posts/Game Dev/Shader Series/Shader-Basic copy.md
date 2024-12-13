@@ -12,7 +12,7 @@ category: "Tutorial"
 image: "./shader.png"
 author: "Bill The Dev"
 license: "CC BY-NC 4.0"
-draft: false
+draft: true
 ---
 
 # **Căn Bản Về Shader: Hiểu Về Cấu Trúc Shader Và Cách Xây Dựng Một Shader Căn Bản Trong Unity Với HLSL**
