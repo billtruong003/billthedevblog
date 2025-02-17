@@ -18,7 +18,7 @@ draft: false
 # **Căn Bản Về Shader: Hiểu Về Cấu Trúc Shader Và Cách Xây Dựng Một Shader Căn Bản Trong Unity Với HLSL**
 Khi bạn chơi game và bắt đầu đắm chìm trong một thế giới chân thực đến mức ấn tượng, từ những ánh sáng rực rỡ, bóng đổ chân thật đến những làn sóng vỗ nhẹ vào bờ, bạn có bao giờ tự hỏi làm sao để tạo ra những hiệu ứng này? Làm sao chúng có thể trông thực tế đến vậy, từ những vật liệu metallic bóng loáng cho tới những làn nước trong vắt có vệt loang sáng, ánh xạ đẹp lung linh? Bài viết này sẽ có câu trả lời cho bạn, chúng chính là **shader**.
 
-Đa số mọi người nghĩ rằng shader là một thứ gì đó phức tạp, cao cấp và khó hiểu, và thực tế thì cũng đúng một phần. Tuy nhiên, shader thực sự là một công cụ cực kỳ mạnh mẽ và hữu ích mà bất kỳ game developer nào cũng nên biết dù. Nhiều người thường bỏ qua việc tìm hiểu về shader và sau đó gặp phải rất nhiều khó khăn khi tối ưu hóa game hoặc tạo ra các hiệu ứng đẹp mắt và vẫn giữ được performance tốt. Vậy shader thực chất là gì? Tại sao nó lại quan trọng đến vậy trong game development? Và làm thế nào để bạn có thể tự tạo ra một shader đơn giản trong Unity với HLSL (High-Level Shading Language)? Hãy cùng tìm hiểu với tôi, bill the dev trong bài viết này nhé!
+Đa số mọi người nghĩ rằng shader là một thứ gì đó phức tạp, cao cấp và khó hiểu, và thực tế thì cũng đúng một phần. Tuy nhiên, shader thực sự là một công cụ cực kỳ mạnh mẽ và hữu ích mà bất kỳ game developer nào cũng nên biết dù. Nhiều người thường bỏ qua việc tìm hiểu về shader và sau đó gặp phải rất nhiều khó khăn khi tối ưu hóa game hoặc tạo ra các hiệu ứng đẹp mắt và vẫn giữ được performance tốt. Vậy shader thực chất là gì? Tại sao nó lại quan trọng đến vậy trong game development? Và làm thế nào để bạn có thể tự tạo ra một shader đơn giản trong Unity với HLSL (High-Level Shading Language)? Hãy cùng tìm hiểu với tôi trong bài viết này nhé!
 
 ## **Shader Là Gì? Tại Sao Shader Quan Trọng?**
 Nếu coi nhà phát triển game như những phù thủy tài ba, thì shader chính là phép thuật kỳ diệu mà chúng ta dùng để thổi hồn vào những thế giới ảo mà mình tạo ra. Qua từng dòng mã tinh tế, đầy logic, shader cho phép ta khắc họa mọi thứ, từ ánh sáng rực rỡ, bóng đổ mềm mại, cho đến những bề mặt kim loại phản chiếu hoàn hảo, hay những yếu tố thiên nhiên khó có thể tái hiện như mặt nước, dung nham… 
@@ -167,9 +167,6 @@ Bây giờ, chúng ta sẽ đơn giản hóa shader trên để chỉ áp dụng
 5. **CGPROGRAM / ENDCG**:  Mã HLSL được viết ở đây để xử lý các phép toán đồ họa (vertex/fragment shader).
 6. **Fallback**:  Chỉ định shader thay thế nếu phần cứng không hỗ trợ shader chính.
 Để thêm biến `color` vào shader và xử lý từng bước một, ta sẽ làm theo các bước dưới đây. Mục tiêu của chúng ta là tạo ra một biến màu mà có thể thay đổi trong quá trình shader hoạt động, đồng thời áp dụng màu cho đối tượng.
-
-Ah, tôi hiểu rồi! Bạn muốn sắp xếp các phần của shader theo một trình tự rõ ràng, bắt đầu với biến màu, sau đó đến các biến tiếp theo như **metallic**, **smoothness**, và cuối cùng là **texture**. Cảm ơn bạn đã làm rõ. Dưới đây là phiên bản chỉnh sửa theo yêu cầu của bạn:
-
 ---
 
 ### **Hướng Dẫn Chi Tiết:**
